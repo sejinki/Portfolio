@@ -25,5 +25,33 @@ body {
       color: burlywood;
       font-size: 12px;
       background: blue;
-      
+      height: 100%;
+      width: 40px;
+  }
+  nav {
+    background-color: black;
+  
+  }
+  .links {
+    float: center;
+    display: block;
+    height: 100%;
+    width: 40px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+    width: 5px;
+    flex-wrap: wrap;
+    float: center;
+  }
+
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
