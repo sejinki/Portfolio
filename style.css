@@ -29,29 +29,24 @@ body {
       width: 40px;
   }
   nav {
-    background-color: black;
-  
-  }
-  .links {
-    float: center;
-    display: block;
-    height: 100%;
-    width: 40px;
+    background-color: rgb(100, 100, 205);
+    text-shadow: 2px 2px;
   }
 
   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: block;
-    width: 5px;
-    flex-wrap: wrap;
-    float: center;
+    margin-top: 20px;
+    width: auto;
+    
   }
 
-  ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  li {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+
+  a {
+    text-align: left;
+    color: purple;
+    font-size: 30px;
+    font-family: ;
   }
